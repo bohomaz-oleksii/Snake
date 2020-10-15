@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+          android:id="@+id/gameScore"
+          android:orderInCategory="1"
+          android:title="Score: 0"
+          app:showAsAction="always" />
+    <item android:id="@+id/pauseGame"
+          android:title="pause"
+          android:orderInCategory="3"
+          app:showAsAction="always"/>
+    <item android:id="@+id/exitGame"
+        android:orderInCategory="5"
+        android:title="Exit"/>
+    <item android:id="@+id/setWhiteOrDarkMode"
+        android:title="DarkMode"/>
+    <item android:id="@+id/setWallsState"
+        android:title="WallsOff"/>
+</menu>
